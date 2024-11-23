@@ -2,10 +2,6 @@ def add_everything_up(a, b):
     try:
         if isinstance(a(int,float)) and (b(int,float)):
             return a + b
-        elif isinstance(a(str)) and (b(str)):
-            return a + b
-        else:
-            raise TypeError
     except TypeError:
         return f'{str(a)}{str(b)}'
 
